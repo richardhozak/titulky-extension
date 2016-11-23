@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Titulky Extension",
+	"version": "1.0",
+	"description": "Fixes visual clutter and annoyances on popular czech subtitle page Titulky.com",
+	"icons": {
+		"48": "icons/border-48.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://*.titulky.com/*"],
+			"js": ["titulky_ext.js"],
+			"css": ["titulky_ext.css"]
+		}
+	],
+	"web_accessible_resources": [
+		"search.svg"
+	]
+}

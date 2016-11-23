@@ -1,0 +1,246 @@
+body {
+	border: 5px solid blue;
+}
+
+#headlogotitulky {
+	display: none;
+}
+
+/*hide top ad*/
+div[id^="adform-adbox"] {
+	display: none;
+}
+
+/*hide anti ad-blocker popup*/
+#cboxOverlay {
+	display: none !important;
+}
+
+/*hide anti ad-blocker background overlay*/
+#colorbox {
+	display: none !important;
+}
+
+/*hide side banner*/
+#bannery160x600P {
+	display: none !important;
+}
+
+/*hide banner above login*/
+#bannery300x300 {
+	display: none !important;
+}
+
+/*fix page width after removing ads*/
+#pagewrap {
+	width: 986px;
+}
+
+/*style new login form*/
+/*----------------------------------------------*/
+
+/*hide original login table*/
+#tablelogin {
+	display: none;
+}
+
+#tablelogin-enh {
+	height: 150px;
+	background-color: #C1C1C1;
+	border-radius: 5px;
+}
+
+#tablelogin-enh-header {
+	height: 26px;
+	background-color: #356793;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#tablelogin-enh-header > p {
+	line-height: 26px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#tablelogin-enh-login {
+	display: block;
+	margin: 10px 20px 0 20px;
+	overflow: hidden;
+}
+
+#tablelogin-enh-login > input {
+	width: 100%;
+	border-radius: 3px;
+	box-sizing: border-box;
+	border: none;
+	height: 25px;
+	padding-left: 10px;
+}
+
+#tablelogin-enh-password {
+	display: block;
+	margin: 10px 20px 0 20px;
+	overflow: hidden;
+}
+
+#tablelogin-enh-password > input {
+	width: 100%;
+	border-radius: 3px;
+	box-sizing: border-box;
+	border: none;
+	height: 25px;
+	padding-left: 10px;
+}
+
+/*bottom div where remember me 
+  and submit inputs are
+*/
+#tablelogin-enh-bottom {
+	margin: 10px 20px 0 20px;
+}
+
+/*style submit buttom*/
+/*---------------------------*/
+#submit-enh {
+	display: inline-block;
+	/*background-color: red;*/
+	width: 50%;
+	height: 25px;
+	right: 0;
+	float: right;
+}
+
+#submit-enh input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 3px;
+}
+/*---------------------------*/
+
+/*style remember me check box*/
+/*---------------------------*/
+#remember-me-enh {
+	display: inline-block;
+	width: 50%;
+	/*background-color: blue;*/
+	height: 25px;
+	float: left;
+}
+
+#remember-me-enh label {
+	display: block;
+  	float: left;
+  	padding-right: 10px;
+  	white-space: nowrap;
+  	line-height: 25px;
+}
+
+#remember-me-enh label input {
+	vertical-align: middle;
+}
+
+#remember-me-enh label input span {
+	vertical-align: middle;
+}
+/*---------------------------*/
+
+/*end of new login style*/
+/*----------------------------------------------*/
+
+
+
+/*style new search form*/
+/*----------------------------------------------*/
+
+/*hide original search table*/
+#tablesearch {
+	display: none;
+}
+
+/*search table*/
+#tablesearch-enh {
+	margin-top: 10px;
+	height: 75px;
+	background-color: #C1C1C1;
+	border-radius: 5px;
+}
+
+/*search header*/
+#tablesearch-enh-header {
+	height: 26px;
+	background-color: #356793;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*search header title*/
+#tablesearch-enh-header > p {
+	line-height: 26px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/*search field container*/
+#tablesearch-enh-search {
+	height: 25px;
+	margin: 10px 10px 0 10px;
+}
+
+/*search field*/
+#tablesearch-enh-search input {
+	width: 100%;
+	border-radius: 3px;
+	box-sizing: border-box;
+	border: none;
+	height: 25px;
+	padding-left: 10px;
+	/*position: relative*/
+}
+
+/*TODO add nice button to search field, submitting by enter should suffice now*/
+/*#tablesearch-enh-search button {
+	height: 25px;
+	width: 25px;
+	margin-left: -25px;
+}
+
+#tablesearch-enh-search button img {
+
+}*/
+
+/*end of new search style*/
+/*----------------------------------------------*/
+
+#stat_bok_h {
+	background: none;
+	height: 26px;
+	background-color: #356793;
+	padding: 0;
+	width: 300px;
+	line-height: 26px;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#stat_bok_v {
+	width: 300px;
+	padding: 5px 0;
+	/*padding-top: 5px;
+	padding-bottom: 5px;*/
+}
+
+#stat_bok_v span {
+	margin-left: 5px;
+}
+
+/*
+*/
