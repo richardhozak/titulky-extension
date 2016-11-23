@@ -7,6 +7,23 @@ body {
 }
 
 /*hide top ad*/
+#head > div:first-child {
+	display: none;
+}
+
+#head {
+	/*fix height after removing ad*/
+	height: auto !important;
+	/*fix background*/
+	background: none !important;
+}
+
+/*remove body ad*/
+#bodycont {
+	background: none !important;
+}
+
+/*hide top ad*/
 div[id^="adform-adbox"] {
 	display: none;
 }
