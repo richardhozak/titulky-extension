@@ -13,8 +13,10 @@
 			"run_at": "document_start"
 		},
 		{
+			"matches": ["*://*.titulky.com/*"],
 			"js": ["titulky_ext.js"],
-			"css": ["titulky_ext.css"]
+			"css": ["titulky_ext.css"],
+			"run_at": "document_end"
 		}
 	],
 	"web_accessible_resources": [
