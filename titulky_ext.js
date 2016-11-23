@@ -1,4 +1,11 @@
-(function() {
+;(function() {
+
+	// stop listening to click events on body because it opens ad
+	document.body.addEventListener("click", function (event) {
+		event.stopPropagation()
+	}, true)
+
+
 
 	var search_icon = browser.extension.getURL("search.svg")
 
