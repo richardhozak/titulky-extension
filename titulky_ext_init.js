@@ -2,17 +2,14 @@
 
     var unwanted_sources = [
         "assets.adobedtm.com", 
-        "cpex.demdex.net", 
-        "gacz.hit.gemius.pl", 
-        "gacz.hit.gemius.pl", 
+        "demdex.net", // cpex.demdex.net, fast.cpex.demdex.net
+        "gemius.pl",  // gacz.hut.gemius.pl, ls.hit.gemius.pl
         "adform.net",
         "ib.adnxs.com", 
         "pixel.yabidos.com", 
         "amazonaws.com",
         "bbnaut.ibillboard.com", 
-        "ls.hit.gemius.pl",
-        "fast.cpex.demdex.net", 
-        "go.eu.bbelements.com"
+        "bbelements.com" // go.eu.bbelements.com
     ]
 
     var unwanted_ids = [
@@ -24,7 +21,8 @@
         "bbswfcontainer",
         "cboxOverlay",
         "colorbox",
-        "adfrom"
+        "adfrom",
+        "bmone2n"
     ]
 
     var removeIfUnwanted = function (node) {
