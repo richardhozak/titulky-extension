@@ -240,6 +240,52 @@ div[id^="adform-adbox"] {
 /*end of new search style*/
 /*----------------------------------------------*/
 
+
+
+/*table logon style*/
+/*----------------------------------------------*/
+
+#tablelogon {
+	height: 50px !important;
+	background: none !important;
+	/*background-color: gray !important;
+	border: none !important;*/
+}
+
+#tablelogon tr {
+	height: auto !important;
+}
+
+#tablelogon td {
+	padding-top: 0 !important;
+
+}
+
+#tablelogon-enh-container {
+	background-color: #C1C1C1;
+	border-radius: 5px;
+	margin-top: 3px;
+}
+
+/*table logon header*/
+#tablelogon-enh-container > div {
+	height: 26px;
+	background-color: #356793;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	line-height: 26px;
+	font-weight: bold;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+/*----------------------------------------------*/
+/*end table logon style*/
+
+
+
+/*forum messages style*/
+/*----------------------------------------------*/
 #stat_bok_h {
 	background: none;
 	height: 26px;
@@ -264,6 +310,8 @@ div[id^="adform-adbox"] {
 #stat_bok_v span {
 	margin-left: 5px;
 }
+/*forum messages style*/
+/*----------------------------------------------*/
 
 /*
 */
