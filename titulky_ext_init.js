@@ -26,7 +26,6 @@
     ]
 
     var removeIfUnwanted = function (node) {
-        return false
         if (node.id) {
             for (var i = 0; i < unwanted_ids.length; i++) {
                 if (node.id.indexOf(unwanted_ids[i]) !== -1) {
@@ -72,11 +71,8 @@
             }*/
 
             mutation.addedNodes.forEach(function(node){
-                
-
                 if (removeIfUnwanted(node)) {
                     console.warn("node removed", node)
-                    console.log("            ", node.localName + "#" + node.id)
                 }
             })
         })
