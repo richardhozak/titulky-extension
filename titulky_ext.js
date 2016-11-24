@@ -54,10 +54,30 @@
 			`)
 	}
 
+
+	var tablelogon = document.getElementById("tablelogon")
+	if (tablelogon) {
+		/*get tablelogon parent for inserting container and remove old tablelogon*/
+		var tablelogon_parent = tablelogon.parentNode
+		tablelogon.remove()
+
+		/*container html*/
+		tablelogon_parent.insertAdjacentHTML('afterbegin', `
+			<div id="tablelogon-enh-container">
+				<div>
+					<p>UŽIVATEL</p>
+				</div>
 			</div>
-		</div>
-		`)
-		
+			`)
+
+		/*move user name above user stars*/
+		var user_cell = tablelogon.rows[0].cells[1]
+		user_cell.insertBefore(user_cell.children[2], user_cell.children[0])
+
+		/*add old tablelogon to new container*/
+		document.getElementById("tablelogon-enh-container").appendChild(tablelogon)
+	}
+
 		//<button type="submit"><img src="${search_icon}"/></button>
 		//<input onfocus="this.select()" id="searchTitulky" type="text" name="Fulltext" class="text_field ac_input" size="20" value="" autocomplete="off">
 		//<input id="searchTitulky" onfocus="this.select()" type="text" value="" name="Fulltext" class="text_field_ac_input" autocomplete="off">		
