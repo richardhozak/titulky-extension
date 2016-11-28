@@ -5,10 +5,6 @@
 		event.stopPropagation()
 	}, true)
 
-
-
-	var search_icon = browser.extension.getURL("search.svg")
-
 	var tablelogin = document.getElementById("tablelogin")
 	if (tablelogin) {
 		var loginform = tablelogin.parentNode

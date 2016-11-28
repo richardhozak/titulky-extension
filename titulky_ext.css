@@ -11,12 +11,13 @@
 	/*fix height after removing ad*/
 	height: auto !important;
 	/*fix background*/
-	background: none !important;
+	/*background: none !important*/;
 }
 
-/*remove body ad*/
+/*remove body ad and fix background color*/
 #bodycont {
 	background: none !important;
+	background-color: #356793 !important;
 }
 
 /*hide top ad*/
@@ -46,12 +47,7 @@ div[id^="adform-adbox"] {
 
 /*fix page width after removing ads*/
 #pagewrap {
-	width: 986px;
-}
-
-/*fix body background*/
-#bodywrap {
-	background-color: #356793;
+	width: 986px !important; /*needs to be !important for chrome*/
 }
 
 /*style new login form*/
@@ -283,21 +279,22 @@ div[id^="adform-adbox"] {
 /*forum messages style*/
 /*----------------------------------------------*/
 #stat_bok_h {
-	background: none;
-	height: 26px;
-	background-color: #356793;
-	padding: 0;
-	width: 300px;
+	/*chrome needs most of these to be !important*/
+	background: none !important;
+	height: 26px !important;
+	background-color: #356793 !important;
+	padding: 0 !important;
+	width: 300px !important;
 	line-height: 26px;
 	border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    text-align: center;
-    font-size: 14px;
+    text-align: center !important;
+    font-size: 14px !important;
     margin-top: 10px;
 }
 
 #stat_bok_v {
-	width: 300px;
+	width: 300px !important; /*chrome needs this to be !important*/
 	padding: 5px 0;
 	/*padding-top: 5px;
 	padding-bottom: 5px;*/
