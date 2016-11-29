@@ -22,7 +22,9 @@
         "cboxOverlay",
         "colorbox",
         "adfrom",
-        "bmone2n"
+        "bmone2n",
+        "bnx300x300",
+        "bnx160x600P"
     ]
 
     var removeIfUnwanted = function (node) {
